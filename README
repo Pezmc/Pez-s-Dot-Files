@@ -1,0 +1,5 @@
+My home dot files used to share between machines
+
+The below command will pull the information and attempt to set up git
+
+    source <(curl -s http://mywebsite.com/myscript.txt) to download it
