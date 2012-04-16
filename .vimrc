@@ -101,3 +101,5 @@ imap <F2> <C-O>:set invpaste paste?<CR>
 set pastetoggle=<F2>
 map <F3> :make <CR>
 map <F4> :copen <CR>
+
+
