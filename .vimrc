@@ -1,5 +1,7 @@
 " Set page 'width
-set cc=81
+if has("cc")
+    set cc=81
+endif
 
 " Syntax highlighting
 filetype plugin on
@@ -73,6 +75,7 @@ set background=dark " When set to "dark", Vim will try to use colors that look
  
 set mouse=a         " Enable the use of the mouse.
  
+set backspace=start,indent,eol " better backspace
 
 if has("syntax")
    syntax on
